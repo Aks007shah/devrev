@@ -1,0 +1,22 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.abc:hover{
+    box-shadow: 3px 3px 5px;
+    background-color: #3c3b3b;
+    border: 2px white;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imgScale {
+    transition: transform 0.3s ease-in-out; /* Smooth scaling */
+}
+
+.image-container:hover .imgScale {
+    transform: scale(1.1); /* Scale only the hovered card's image */
+}
